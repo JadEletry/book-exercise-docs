@@ -10,7 +10,15 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The implementation for the CDA device creates an environment for pydev to run in order to secure the
+initialization of the device. 
+
 How does your implementation work?
+
+The implementation works by utilizing the python language within the CDA environement to pull data
+from the github repository, the data being excuted is tested within Eclipse and then pushed back into the 
+repository.
+
 
 ### Code Repository and Branch
 
