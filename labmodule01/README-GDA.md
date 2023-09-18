@@ -57,6 +57,7 @@ your code to ensure it's correct. As for the tests you execute, you only need to
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 GDA-AppTest:
+
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ade6c326-0669-4145-b228-1b81c0199027)
 
 EOF.
