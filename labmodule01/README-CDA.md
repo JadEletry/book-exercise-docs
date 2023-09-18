@@ -27,7 +27,7 @@ repository.
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: https://github.com/ShahzabeM/CDA-Python.git
+URL: https://github.com/ShahzabeM/CDA-Python
 
 ### UML Design Diagram(s)
 
