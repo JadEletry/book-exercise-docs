@@ -21,6 +21,9 @@ ran through the maven installation to validate this and finally was pushed back 
 
 ### Code Repository and Branch
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/6f5eba7b-31d1-478a-bc96-f4866ecf6770)
+
+
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
 URL: 
@@ -40,9 +43,11 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+ConfigUtilTest:
+
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/4131ee84-e122-4c35-840c-aa44056088dd)
+
+
 
 ### Integration Tests Executed
 
@@ -51,8 +56,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+GDA-AppTest:
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ade6c326-0669-4145-b228-1b81c0199027)
 
 EOF.
