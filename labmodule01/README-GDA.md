@@ -26,7 +26,7 @@ ran through the maven installation to validate this and finally was pushed back 
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: https://github.com/ShahzabeM/GDA-Java.git
+URL: https://github.com/ShahzabeM/GDA-Java
 
 ### UML Design Diagram(s)
 
