@@ -22,6 +22,9 @@ repository.
 
 ### Code Repository and Branch
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/7df27f88-bc8c-4c30-8157-82b8465a1aa4)
+
+
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
 URL: 
