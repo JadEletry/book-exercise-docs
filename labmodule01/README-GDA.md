@@ -10,7 +10,14 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The implementation for the GDA device creates another testing environment, but in this case it is used in Java.
+That being said, JUnit testing is used within this scope in the Eclipse IDE for the GDA device. 
+
 How does your implementation work?
+
+Using the provided files from the github repository, we downloaded them through the set up process of our 
+environment and utilized them to ensure the environements testing capabilities are authentic. The environement
+ran through the maven installation to validate this and finally was pushed back into the github repository. 
 
 ### Code Repository and Branch
 
