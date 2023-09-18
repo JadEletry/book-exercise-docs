@@ -10,8 +10,8 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-The implementation for the CDA device creates an environment for pydev to run in order to secure the
-initialization of the device. 
+The implementation for the CDA device creates an environment for pydev to run in order to
+initialize the device. In doing so, we can approve the environment's ability to run securely.
 
 How does your implementation work?
 
