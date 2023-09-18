@@ -41,9 +41,11 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+ConfigUtilTest: 
+
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/d38dac1e-7177-4e05-88be-df7f230a4048)
+
+
 
 ### Integration Tests Executed
 
@@ -52,8 +54,9 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+CDAAppTest:
+
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/cc68313f-ab6f-443a-a167-1b5f8333dc46)
+
 
 EOF.
