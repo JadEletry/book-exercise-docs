@@ -61,7 +61,7 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 CDA-App Tests:
 
 CDA 001 - Integration test of ConstrainedDeviceAppTest.py
-![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/6888061c-66e5-47e2-84ba-651154c1dc4a)
+<br>![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/6888061c-66e5-47e2-84ba-651154c1dc4a)
 
 CDA 002 - Integration test of SystemPerformanceManagerTest
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/eda2627e-e69c-4209-adcd-52dda16573cb)
