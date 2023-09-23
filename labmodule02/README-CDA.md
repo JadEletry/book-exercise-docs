@@ -10,7 +10,15 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+We've expanded on the previous implementation to create an IoT edge tier environment which utilizes python
+to collect data through two different performance task components. One component being for the system cpu and
+the other being for the system's memory. 
+
 How does your implementation work?
+
+The CDA application in this implemenation works by creating an instance called SystemPerformanceManager which is 
+self-explanataory in its usage. We use this component to manage the two main data collection components within the
+function called SystemCpuUtilTask and SystemMemUtilTask which run as asynchronous threads. 
 
 ### Code Repository and Branch
 
@@ -33,9 +41,10 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+ConfigUtilTests:
+
+CDA 001 - Py UNIT TEST
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/c65051f1-ef32-4e97-b33f-2043415c73ea)
 
 ### Integration Tests Executed
 
@@ -44,8 +53,13 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+CDA-App Tests:
+
+CDA 001 - Integration test of ConstrainedDeviceAppTest.py
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/6888061c-66e5-47e2-84ba-651154c1dc4a)
+
+CDA 002 - Integration test of SystemPerformanceManagerTes
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/eda2627e-e69c-4209-adcd-52dda16573cb)
+
 
 EOF.
