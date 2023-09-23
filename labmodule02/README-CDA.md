@@ -17,8 +17,10 @@ the other being for the system's memory.
 How does your implementation work?
 
 The CDA application in this implemenation works by creating an instance called SystemPerformanceManager which is 
-self-explanataory in its usage. We use this component to manage the two main data collection components within the
-function called SystemCpuUtilTask and SystemMemUtilTask which run as asynchronous threads. 
+self-explanataory in its usage. We use this component to manage the two main telemetry data collection components within 
+the function called SystemCpuUtilTask and SystemMemUtilTask which run as asynchronous threads. We're able to do this
+by importing the psutil library. We want to be able to separate and manage our key functions so we use the 
+BaseSystemUtilTask class to do this. 
 
 ### Code Repository and Branch
 
@@ -58,8 +60,18 @@ CDA-App Tests:
 CDA 001 - Integration test of ConstrainedDeviceAppTest.py
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/6888061c-66e5-47e2-84ba-651154c1dc4a)
 
-CDA 002 - Integration test of SystemPerformanceManagerTes
+CDA 002 - Integration test of SystemPerformanceManagerTest
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/eda2627e-e69c-4209-adcd-52dda16573cb)
+
+CDA 003 - Integration test of ConstrainedDeviceAppTest
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/f42b6bb7-5d7b-4be2-9acb-9651f0da0027)
+
+CDA 005 - test should pass
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/53aa7faf-a4f0-4fd8-a975-1300c0bac884)
+
+CDA 006 - test should pass
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/abce5ff2-86c0-43aa-ac14-c8cf78ed2af9)
+
 
 
 EOF.
