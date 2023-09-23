@@ -69,7 +69,7 @@ CDA 002 - Integration test of SystemPerformanceManagerTest
 CDA 003 - Integration test of ConstrainedDeviceAppTest
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/f42b6bb7-5d7b-4be2-9acb-9651f0da0027)
 
-CDA 005 - test should pass
+CDA 005 - test should pass<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/53aa7faf-a4f0-4fd8-a975-1300c0bac884)
 
 CDA 006 - test should pass
