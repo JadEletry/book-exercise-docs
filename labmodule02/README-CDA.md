@@ -73,6 +73,7 @@ CDA 006 - test should pass
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/abce5ff2-86c0-43aa-ac14-c8cf78ed2af9)
 
 CDA - 007 Integration test of system performana manager,  for connecting the cpuUtilTask and memUtilTask to the PerformanceManager
+
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/38d0cd7a-3e5a-4b56-977d-7c853c4c7c1b)
 
 EOF.
