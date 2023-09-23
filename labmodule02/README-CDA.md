@@ -16,7 +16,7 @@ the other being for the system's memory.
 
 How does your implementation work?
 
-The CDA application in this implemenation works by creating an instance called SystemPerformanceManager which is 
+The CDA application in this implementation works by creating an instance called SystemPerformanceManager which is 
 self-explanataory in its usage. We use this component to manage the two main telemetry data collection components within 
 the function called SystemCpuUtilTask and SystemMemUtilTask which run as asynchronous threads. We're able to do this
 by importing the psutil library. We want to be able to separate and manage our key functions so we use the 
