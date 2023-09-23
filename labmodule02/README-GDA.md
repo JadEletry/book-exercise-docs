@@ -74,6 +74,8 @@ GDA - 005 Integration Test for SystemCpuUtil
 GDA - 006 INtegration Test for SystemMemUtil
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/bd6be850-3114-4861-bd3b-af3006f87e05)
 
+GDA 007 - Integration Test
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/b907f4ef-c6d5-468d-8136-ca992b88f638)
 
 
 EOF.
