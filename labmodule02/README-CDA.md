@@ -48,6 +48,7 @@ since you need to ensure you haven't introduced regressions.
 ConfigUtilTests:
 
 CDA 001 - Py UNIT TEST
+
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/c65051f1-ef32-4e97-b33f-2043415c73ea)
 
 ### Integration Tests Executed
