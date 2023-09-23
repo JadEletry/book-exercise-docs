@@ -72,7 +72,7 @@ CDA 003 - Integration test of ConstrainedDeviceAppTest
 CDA 005 - test should pass<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/53aa7faf-a4f0-4fd8-a975-1300c0bac884)
 
-CDA 006 - test should pass
+CDA 006 - test should pass<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/abce5ff2-86c0-43aa-ac14-c8cf78ed2af9)
 
 CDA - 007 Integration test of system performana manager,  for connecting the cpuUtilTask and memUtilTask to the PerformanceManager
