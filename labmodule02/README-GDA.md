@@ -59,22 +59,22 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 GDA-App Test:
 
-GDA - 001 Integration
+GDA - 001 Integration<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/e40693f1-baab-445e-a649-a5c30aa3bb41)
 
-GDA - 002 Integration Test for System Performane Manager Test
+GDA - 002 Integration Test for System Performane Manager Test<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/62e98af7-ba03-4daf-a54e-d1a29c77f132)
 
-GDA - 003 : Test for GatewaYDeviceAppTest
+GDA - 003 : Test for GatewaYDeviceAppTest<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ecd81905-383e-4139-ba3a-e4068471c527)
 
-GDA - 005 Integration Test for SystemCpuUtil
+GDA - 005 Integration Test for SystemCpuUtil<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/c92d8973-933e-46f7-8380-78d95c55373e)
 
-GDA - 006 INtegration Test for SystemMemUtil
+GDA - 006 INtegration Test for SystemMemUtil<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/bd6be850-3114-4861-bd3b-af3006f87e05)
 
-GDA 007 - Integration Test
+GDA 007 - Integration Test<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/b907f4ef-c6d5-468d-8136-ca992b88f638)
 
 
