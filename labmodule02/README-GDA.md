@@ -27,7 +27,7 @@ we can leverage the java language by using polling systems which are built into 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/d6c4bcba-c348-48ef-888d-101813fcfafb)
 
-URL: 
+URL: https://github.com/ShahzabeM/GDA-Java
 
 ### UML Design Diagram(s)
 
