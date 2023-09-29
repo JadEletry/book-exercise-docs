@@ -10,10 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Module 3's implementation focuses on adding functionality to our CDA so that we can collect data from simulated and emulated sensors. 
-The CDA then stores and interprets the data within python's library and into data object wrappers and converts it to and from JSON.  
+Module 3's implementation focuses on adding functionality to our CDA so that we can 
 
 How does your implementation work?
+
+
 
 ### Code Repository and Branch
 
