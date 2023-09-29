@@ -10,13 +10,16 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Module 3's implementation focuses on adding functionality to our CDA so that we can collect data from simulated and emulated sensors. 
+The CDA then stores and interprets the data within python's library and into data object wrappers and converts it to and from JSON.  
+
 How does your implementation work?
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/ShahzabeM/CDA-Python
 
 ### UML Design Diagram(s)
 
@@ -55,15 +58,12 @@ CDA-03-005: HvacActuatorSimTaskTest <br>
 CDA-03-005:HumidifierActuatorSimTaskTest <br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/dea2ad92-6864-43c1-8630-2abb3cadb7ff)
 
-
-
 ### Integration Tests Executed
 
 NOTE: TA's will execute most of your integration tests using their own environment, with
 some exceptions (such as your cloud connectivity tests). In such cases, they'll review
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
-
 
 
 EOF.
