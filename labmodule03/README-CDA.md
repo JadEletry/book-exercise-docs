@@ -34,6 +34,9 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/4fa99c83-58e7-4009-b1c7-5899a4ab4cb4)
+
+
 
 ### Unit Tests Executed
 
@@ -70,6 +73,13 @@ CDA-03-006: SensorAdapterMangerTest <br>
 
 CDA-03-007: ActuatorAdpaterManagerTest <br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ca48f49d-7b93-49eb-b59e-cd0359b85941)
+
+CDA-03-008: DeviceDataManager  <br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/7e4e4eb6-9e07-4638-a713-4867eca82a37)
+
+CDA-03-009: Interaion Test for Constrained Device App <br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/cb9004dc-5348-4e79-957e-fa340c427031)
+
 
 ### Integration Tests Executed
 
