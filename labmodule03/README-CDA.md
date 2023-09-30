@@ -76,16 +76,15 @@ CDA-03-007: ActuatorAdpaterManagerTest <br>
 CDA-03-008: DeviceDataManager  <br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/7e4e4eb6-9e07-4638-a713-4867eca82a37)
 
-CDA-03-009: Interaion Test for Constrained Device App <br>
-![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/cb9004dc-5348-4e79-957e-fa340c427031)
-
-
 ### Integration Tests Executed
 
 NOTE: TA's will execute most of your integration tests using their own environment, with
 some exceptions (such as your cloud connectivity tests). In such cases, they'll review
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
+
+CDA-03-009: Integraion Test for Constrained Device App <br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/cb9004dc-5348-4e79-957e-fa340c427031)
 
 
 EOF.
