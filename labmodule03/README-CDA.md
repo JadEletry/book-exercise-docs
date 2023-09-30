@@ -8,6 +8,9 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/617e776a-1b46-48fd-9926-d89697a3112f)
+
+
 What does your implementation do? 
 
 Module 3's implementation focuses on adding functionality to our CDA so that we can measure and model the data it generates 
