@@ -10,11 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Module 3's implementation focuses on adding functionality to our CDA so that we can 
+Module 3's implementation focuses on adding functionality to our CDA so that we can measure and model the data it generates 
+as a part of a simple sensor and actuator simulation environment. So the CDA incorporates logical components to produce 
+sensing and actuation capabilities. 
 
 How does your implementation work?
 
-
+The CDA application works in this implementation by using a sensor data generator class named SensorDataGenerator which relies on NumPy 
+packages to generate a series of float values with a given range over a period of time. The given values then provide sufficient variety to 
+trigger actuation events which are configured within the settings file 'PiotConfig.props'. Our generator class implements 6 different 
+methods to generate values for temperature, pressure, humidity, and any other float-based range which then returns an instance of 
+the SensorDataSet class containing the float value entries and timestamp.
 
 ### Code Repository and Branch
 
@@ -58,6 +64,12 @@ CDA-03-005: HvacActuatorSimTaskTest <br>
 
 CDA-03-005:HumidifierActuatorSimTaskTest <br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/dea2ad92-6864-43c1-8630-2abb3cadb7ff)
+
+CDA-03-006: SensorAdapterMangerTest <br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/368e69ea-5720-45ec-833e-ab3dc9bb8dbf)
+
+CDA-03-007: ActuatorAdpaterManagerTest <br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ca48f49d-7b93-49eb-b59e-cd0359b85941)
 
 ### Integration Tests Executed
 
