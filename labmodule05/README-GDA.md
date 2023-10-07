@@ -10,13 +10,18 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Similar to the design of the CDA's implementation, we still want the GDA to be able to communicate and transfer data 
+between itself and the CDA. Meaning converting java components to python components and being able to accept data. 
+
 How does your implementation work?
+
+
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/ShahzabeM/GDA-Java
 
 ### UML Design Diagram(s)
 
@@ -32,9 +37,9 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+DataUtilTest: 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/a82e9a71-d5da-4673-af9b-bdb738282363)
+
 
 ### Integration Tests Executed
 
@@ -50,7 +55,6 @@ PIOT-GDA-001: Integrations test<br>
 
 PIOT-GDA-003:  DataIntegrationTest<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/214a03a3-25f3-4332-b4b1-3a63f9f9f0c7)
-![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/73f6b964-23c7-4f7f-aa56-f02ed06fa607)
 
 
 
