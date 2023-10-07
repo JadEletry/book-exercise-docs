@@ -10,7 +10,16 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Module 5's CDA implementation extends the telemtry data generated from the simulated sensors previous implementations 
+to have the data usable by other devices. In other, words, we're trying to send objects written in python over to our GDA, 
+which are written in java. 
+
 How does your implementation work?
+
+The implementation works by integrating data translation within the project so that the generated data being used by the CDA
+is converted/comprehended so that the GDA can process the information. We use the _DeviceDataManager_ class to orchestrate
+information flow within the application, and then use a new component - _DataUtil_ as a centralized data translation utility
+for converting the CDA's data container objects into a format in which the GDA can read. 
 
 ### Code Repository and Branch
 
@@ -32,9 +41,6 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
 
 ### Integration Tests Executed
 
@@ -43,8 +49,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+PIOT-CDA-05-001: Part01 Integration Test for SystemPerformanceManagerTest<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/5de76576-ce95-4858-82ad-1e5a4f684610)
 
 EOF.
