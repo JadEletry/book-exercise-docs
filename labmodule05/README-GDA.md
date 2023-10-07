@@ -15,7 +15,7 @@ between itself and the CDA. Meaning converting java components to python compone
 
 How does your implementation work?
 
-
+The implementation works by reusing the same containers built previously - _ActuatorData_, _SensorData_
 
 ### Code Repository and Branch
 
