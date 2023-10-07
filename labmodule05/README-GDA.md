@@ -61,9 +61,10 @@ PIOT-GDA-003:  DataIntegrationTest<br>
 PIOT-GDA-004: DeviceDataManagerNoCommsTest Integration Test<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ce32e535-53a4-4bc4-9d9b-cb899bc82716)
 
+PIOT-GDA-004: DeviceDataManagerNoCommsTest Integration Test<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/59b0cdae-b75f-4396-9860-bac8daae57ca)
 
-
-
-
+PIOT-GDA-005: GatewayDeviceAPp Test<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/2e060fb0-47fe-4152-b779-6d88ddb326f7)
 
 EOF.
