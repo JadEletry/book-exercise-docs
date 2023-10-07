@@ -58,6 +58,10 @@ PIOT-GDA-001: Integrations test<br>
 PIOT-GDA-003:  DataIntegrationTest<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/214a03a3-25f3-4332-b4b1-3a63f9f9f0c7)
 
+PIOT-GDA-004: DeviceDataManagerNoCommsTest Integration Test<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/ce32e535-53a4-4bc4-9d9b-cb899bc82716)
+
+
 
 
 
