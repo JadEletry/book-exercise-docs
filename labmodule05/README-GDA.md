@@ -15,7 +15,9 @@ between itself and the CDA. Meaning converting java components to python compone
 
 How does your implementation work?
 
-The implementation works by reusing the same containers built previously - _ActuatorData_, _SensorData_
+The implementation works by reusing the same containers built previously - _ActuatorData_, _SensorData_, and _SystemPerformanceData_
+execept this time since the GDA does not generate its own performance data we need a fourth container - _SystemPerformanceData_.
+Which all derive from the BaseIotData class.
 
 ### Code Repository and Branch
 
