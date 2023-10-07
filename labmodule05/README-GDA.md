@@ -48,6 +48,12 @@ PIOT-GDA-001: Integrations test<br>
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/964745ba-1045-4f9e-8261-91ea7f7d941e)
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/6dd9e15b-2717-41f2-af58-6debff4b20a9)
 
+PIOT-GDA-003:  DataIntegrationTest<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/214a03a3-25f3-4332-b4b1-3a63f9f9f0c7)
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/73f6b964-23c7-4f7f-aa56-f02ed06fa607)
+
+
+
 
 
 EOF.
