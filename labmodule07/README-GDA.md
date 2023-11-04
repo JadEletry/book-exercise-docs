@@ -10,7 +10,10 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+
 How does your implementation work?
+
+
 
 ### Code Repository and Branch
 
@@ -23,6 +26,8 @@ URL:
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
+
+
 
 
 ### Unit Tests Executed
@@ -42,8 +47,13 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+PIOT-GDA-07-001: Create / edit module MqttClientConnector - Integration Test for testConnectAndDisconnect()<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/b66c8039-4030-4f24-9b6a-e8874cc9180e)
+
+PIOT-GDA-07-002: Create the callback infrastructure for MqttClientConnector -  Integration Test for testConnectAndDisconnect()<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/26ccf8d5-9cc3-43be-b979-4b235dc67239)
+
+PIOT-GDA-07-003: Create the publish and subscribe methods for MqttClientConnector - Integration Test for testPublishAndSubscribe()<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/c7be1b95-ec4a-493b-b4d8-780f1e857818)
 
 EOF.
