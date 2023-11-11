@@ -47,8 +47,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+PIOT-CDA-08-004 - Integration Test
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/4651a12e-4d16-48a5-bf07-e619c4281a35)
+
 
 EOF.
