@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The Gateway Device Application's (GDA) CoAP server implementation serves as a crucial component in the IoT architecture, facilitating communication with Constrained Device Applications (CDAs) through the Constrained Application Protocol (CoAP). The server supports two main functionalities: First, it manages incoming SensorData and SystemPerformanceData updates from CDAs, validating and processing the received JSON-formatted data. Second, it enables CDAs to retrieve ActuatorData by responding to "Get" requests. The resource handlers, such as UpdateSystemPerformanceResourceHandler and GetActuatorCommandResourceHandler, ensure the proper handling of incoming data and the provision of actuation commands. The implementation adheres to CoAP's principles, maintaining observability for efficient data updates and ensuring a secure communication channel between the GDA and CDAs.
+
 How does your implementation work?
+
+The CoAP server in the GDA operates by creating resource handlers tailored for specific data interactions. When CDAs send SensorData or SystemPerformanceData updates, the corresponding Update resource handlers validate and process the incoming data, forwarding it to the DeviceDataManager. This manager, serving as the orchestrator, decides whether to further process the data, validate it through the ActuatorAdapterManager, or log it based on application-specific logic. Conversely, when CDAs request ActuatorData, the GetActuatorCommandResourceHandler responds with the requested data. The integration of these resource handlers establishes a seamless communication link, allowing the GDA to manage and coordinate data flows within the IoT ecosystem.
 
 ### Code Repository and Branch
 
@@ -24,6 +28,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/491d2dff-1715-4f41-b16c-510122e59740)
 
 ### Unit Tests Executed
 
