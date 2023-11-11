@@ -23,7 +23,7 @@ This implementation operates by leveraging the MQTT (Message Queuing Telemetry T
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: hhttps://github.com/ShahzabeM/CDA-Python/tree/labmodule06
+URL: https://github.com/ShahzabeM/CDA-Python/tree/labmodule06
 
 ### UML Design Diagram(s)
 
