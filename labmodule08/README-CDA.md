@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The Constrained Device Application's (CDA) CoAP server implementation facilitates communication with the Gateway Device Application (GDA) using the Constrained Application Protocol (CoAP). Specifically, it supports two main functionalities: First, the server handles incoming ActuatorData updates sent by the GDA, validating and processing the received JSON-formatted data. Second, it provides access to SensorData and SystemPerformanceData through "Get" requests initiated by the GDA. The server's resource handlers, such as UpdateActuatorResourceHandler, ensure the proper validation and handling of incoming ActuatorData, while the "Get" handlers, like GetTelemetryResourceHandler and GetSystemPerformanceResourceHandler, enable the GDA to retrieve telemetry and system performance data. The implementation also supports observability, allowing the GDA to receive updates when new data is available. This CoAP server establishes a crucial link between the GDA and CDA for seamless data exchange in IoT applications.
+
 How does your implementation work?
+
+The CoAP server in the CDA functions by creating resource handlers for different types of data interactions. When the GDA sends ActuatorData updates, the UpdateActuatorResourceHandler processes the incoming data, ensuring its validity, and then passes it to the DeviceDataManager. This data manager, acting as the orchestrator, decides whether to further process the actuation data or log it based on additional validation. On the other hand, when the GDA requests SensorData or SystemPerformanceData, the corresponding "Get" resource handlers respond with the requested data. These handlers are linked to the DeviceDataManager, allowing the manager to notify the GDA when new telemetry or system performance data is available. Overall, the CDA's CoAP server establishes a bidirectional communication channel, enabling coordinated interactions between the GDA and CDA components in the IoT ecosystem.
 
 ### Code Repository and Branch
 
@@ -24,6 +28,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/cf3b672a-ff0a-487b-ad6c-08e2378d7d46)
 
 ### Unit Tests Executed
 
