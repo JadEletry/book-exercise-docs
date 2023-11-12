@@ -36,9 +36,12 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+PIOT-CFG-08-001: Install and configure the CoAP Java library for your platform - Unit Tests - Client
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/f0ee4700-a86b-432c-b560-d5b0dfcf453c)<br>
+
+PIOT-CFG-08-001: Install and configure the CoAP Java library for your platform - Unit Tests - Server
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/c3d54827-0aa7-4345-8ba0-19c1925576f3)
+
 
 ### Integration Tests Executed
 
@@ -47,8 +50,9 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+PIOT-GDA-08-004 - Integration Test
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/92ba3552-c6a7-41cb-baf0-695d3162db61)<br>
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/4dd279b3-69ab-4694-bd9b-47e3d023bb98)
+
 
 EOF.
