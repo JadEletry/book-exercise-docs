@@ -20,7 +20,7 @@ The CoAP server in the GDA operates by creating resource handlers tailored for s
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/ShahzabeM/GDA-Java
 
 ### UML Design Diagram(s)
 
