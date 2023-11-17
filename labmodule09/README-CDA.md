@@ -47,6 +47,7 @@ PIOT-CDA-09-002: Add GET functionality to CoapClientConnector - Discovery Test -
 PIOT-CDA-09-002: Add GET functionality to CoapClientConnector - GET Actuator Command Test - Test Case
 ![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/7efe3ffd-634d-4283-8d31-71f004138302)
 
+PIOT-CDA-09-004: Add POST functionality to CoapClientConnector -Test Cases for POST
 ```txt
 2023-11-17 16:29:57,393:CoapClientConnectorTest:INFO:Testing CoapClientConnector class...
 2023-11-17 16:29:57,393:ConfigUtil:INFO:Loading config: ../../../../../../../config/PiotConfig.props
@@ -144,4 +145,73 @@ OK (skipped=6)
 2023-11-17 16:30:41,613:CoapClientConnector:INFO:PUT response received: None
 ```
 
+PIOT-CDA-09-005: Add DELETE functionality to CoapClientConnector - Test Case for DELETE
+```txt
+2023-11-17 16:41:33,170:CoapClientConnectorTest:INFO:Testing CoapClientConnector class...
+2023-11-17 16:41:33,170:ConfigUtil:INFO:Loading config: ../../../../../../../config/PiotConfig.props
+2023-11-17 16:41:33,171:ConfigUtil:INFO:Created instance of ConfigUtil: <programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7fa9e4bbdd10>
+2023-11-17 16:41:33,171:CoapClientConnector:INFO:	Host:Port: localhost:5683
+2023-11-17 16:41:33,177:CoapClientConnector:INFO:Client created. Will invoke resources at: coap://localhost:5683/
+ss2023-11-17 16:41:33,177:CoapClientConnector:INFO:Issuing DELETE with path: PIOT/ConstrainedDevice/SensorMsg
+2023-11-17 16:41:33,187:messagelayer:INFO:send_request - From None, To ('127.0.0.1', 5683), None-None, DELETE-281f, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+.2023-11-17 16:41:33,188:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), CON-41876, DELETE-281f, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 16:41:33,188:CoapClientConnector:INFO:Issuing DELETE with path: PIOT/ConstrainedDevice/SensorMsg
+2023-11-17 16:41:33,190:messagelayer:INFO:send_request - From None, To ('127.0.0.1', 5683), NON-None, DELETE-5b44, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 16:41:33,190:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), NON-41877, DELETE-5b44, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+.ssssss
+----------------------------------------------------------------------
+Ran 10 tests in 0.026s
+
+OK (skipped=8)
+2023-11-17 16:41:33,292:coap:INFO:receive_datagram - From ('127.0.0.1', 5683), To None, NON-19184, METHOD_NOT_ALLOWED-5b44, [] No payload
+2023-11-17 16:41:33,292:messagelayer:INFO:receive_response - From ('127.0.0.1', 5683), To None, NON-19184, METHOD_NOT_ALLOWED-5b44, [] No payload
+2023-11-17 16:41:33,312:CoapClientConnector:INFO:DELETE response received: None
+2023-11-17 16:41:33,314:coap:INFO:receive_datagram - From ('127.0.0.1', 5683), To None, ACK-41876, METHOD_NOT_ALLOWED-281f, [] No payload
+2023-11-17 16:41:33,314:messagelayer:INFO:receive_response - From ('127.0.0.1', 5683), To None, ACK-41876, METHOD_NOT_ALLOWED-281f, [] No payload
+2023-11-17 16:41:33,347:CoapClientConnector:INFO:DELETE response received: None
+```
+
+PIOT-CDA-09-006: Add OBSERVE functionality to CoapClientConnector - Test Case Observe
+```txt
+2023-11-17 17:06:13,694:CoapClientConnectorTest:INFO:Testing CoapClientConnector class...
+2023-11-17 17:06:13,694:ConfigUtil:INFO:Loading config: ../../../../../../../config/PiotConfig.props
+2023-11-17 17:06:13,696:ConfigUtil:INFO:Created instance of ConfigUtil: <programmingtheiot.common.ConfigUtil.ConfigUtil object at 0x7f99ddcb3810>
+2023-11-17 17:06:13,696:CoapClientConnector:INFO:	Host:Port: localhost:5683
+2023-11-17 17:06:13,706:CoapClientConnector:INFO:Client created. Will invoke resources at: coap://localhost:5683/
+2023-11-17 17:06:13,710:messagelayer:INFO:send_request - From None, To ('127.0.0.1', 5683), None-None, GET-None, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: ActuatorCmd, Observe: 0, ] No payload
+2023-11-17 17:06:13,710:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), CON-61815, GET-None, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: ActuatorCmd, Observe: 0, ] No payload
+/home/zabe/programmingtheiot/piotvenv/lib/python3.11/site-packages/coapthon/client/coap.py:250: DeprecationWarning: isSet() is deprecated, use is_set() instead
+  while not self.stopped.isSet():
+/home/zabe/programmingtheiot/piotvenv/lib/python3.11/site-packages/coapthon/client/coap.py:218: DeprecationWarning: isSet() is deprecated, use is_set() instead
+  and not transaction.retransmit_stop.isSet():
+/home/zabe/programmingtheiot/piotvenv/lib/python3.11/site-packages/coapthon/client/helperclient.py:62: DeprecationWarning: isSet() is deprecated, use is_set() instead
+  while not self.protocol.stopped.isSet():
+2023-11-17 17:06:13,765:messagelayer:INFO:receive_empty - From ('127.0.0.1', 5683), To None, ACK-61815, EMPTY-None, [] No payload
+2023-11-17 17:06:13,790:coap:INFO:receive_datagram - From ('127.0.0.1', 5683), To None, CON-32431, CONTENT-None, [Observe: 0, Content-Type: 0, ] No payload
+2023-11-17 17:06:13,791:messagelayer:INFO:receive_response - From ('127.0.0.1', 5683), To None, CON-32431, CONTENT-None, [Observe: 0, Content-Type: 0, ] No payload
+2023-11-17 17:06:13,791:messagelayer:INFO:send_empty - From None, To None, ACK-None, EMPTY-None, [] No payload
+2023-11-17 17:06:13,791:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), ACK-32431, EMPTY-None, [] No payload
+2023-11-17 17:06:13,791:messagelayer:INFO:send_empty - From None, To None, ACK-None, EMPTY-None, [] No payload
+2023-11-17 17:06:13,791:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), ACK-32431, EMPTY-None, [] No payload
+2023-11-17 17:06:13,847:CoapClientConnector:INFO:Received actuator command response to resource PIOT/ConstrainedDevice/ActuatorCmd: None
+2023-11-17 17:06:43,720:CoapClientConnector:INFO:Canceling observe for resource PIOT/ConstrainedDevice/ActuatorCmd.
+2023-11-17 17:06:43,720:messagelayer:INFO:send_empty - From None, To ('127.0.0.1', 5683), RST-32431, EMPTY-None, [] No payload
+2023-11-17 17:06:43,720:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), RST-32431, EMPTY-None, [] No payload
+2023-11-17 17:06:43,768:CoapClientConnector:INFO:Canceled observe for resource PIOT/ConstrainedDevice/ActuatorCmd.
+.s2023-11-17 17:06:43,803:CoapClientConnector:INFO:Issuing DELETE with path: PIOT/ConstrainedDevice/SensorMsg
+.2023-11-17 17:06:43,803:messagelayer:INFO:send_request - From None, To ('127.0.0.1', 5683), None-None, DELETE-eb3d, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 17:06:43,804:CoapClientConnector:INFO:Issuing DELETE with path: PIOT/ConstrainedDevice/SensorMsg
+2023-11-17 17:06:43,804:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), CON-61816, DELETE-eb3d, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+.ssssss2023-11-17 17:06:43,804:messagelayer:INFO:send_request - From None, To ('127.0.0.1', 5683), NON-None, DELETE-93be, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+
+----------------------------------------------------------------------
+Ran 10 tests in 30.121s
+
+OK (skipped=7)
+2023-11-17 17:06:43,815:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), NON-61817, DELETE-93be, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 17:06:46,163:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), CON-61816, DELETE-eb3d, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 17:06:50,845:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), CON-61816, DELETE-eb3d, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 17:07:00,205:coap:INFO:send_datagram - From None, To ('127.0.0.1', 5683), CON-61816, DELETE-eb3d, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+2023-11-17 17:07:56,347:coap:WARNING:Give up on message From None, To ('127.0.0.1', 5683), CON-61816, DELETE-eb3d, [Uri-Path: PIOT, Uri-Path: ConstrainedDevice, Uri-Path: SensorMsg, ] No payload
+```
 EOF.
