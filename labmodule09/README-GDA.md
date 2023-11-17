@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Our Gateway Device Application (GDA) implementation incorporates a CoAP (Constrained Application Protocol) client, enhancing the device's capability to interact with servers using CoAP messaging. This client primarily facilitates GET, PUT, and OBSERVE requests, enabling the device to retrieve, send, and monitor data from diverse sources. Notably, the client supports CONFIRMABLE (CON) and NON-CONFIRMABLE (NON) messages, ensuring reliable and efficient communication between the GDA and servers. Moreover, it manages payload encoding and decoding intricacies, crucial for interpreting messages exchanged with external servers.
+
 How does your implementation work?
+
+Within the Gateway Device Application, the CoAP client initiates communication channels with servers using CoAP messages. For a GET request, it constructs a request message and awaits the server's response, interpreting the received data for local processing. When executing a PUT request, the client crafts and dispatches data to designated servers, conforming to CoAP standards. Additionally, it supports OBSERVE functionality, enabling continual monitoring of specific resources and handling subsequent updates received from servers. Throughout these interactions, the client meticulously handles various message types, maintaining data integrity and ensuring efficient communication between the device and external servers.
 
 ### Code Repository and Branch
 
