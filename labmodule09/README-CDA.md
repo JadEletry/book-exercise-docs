@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Our Constrained Device Application (CDA) implementation focuses on integrating a CoAP (Constrained Application Protocol) client, enabling our device to communicate with servers using CoAP. This client facilitates GET, PUT, and OBSERVE requests, allowing the device to retrieve, send, and monitor data, respectively. The client handles message types like CONFIRMABLE (CON) and NON-CONFIRMABLE (NON), ensuring reliability and efficiency in data exchange. Notably, the implementation meticulously manages payload encoding and decoding to support message interpretation between the CDA and servers.
+
 How does your implementation work?
+
+The CoAP client within our Constrained Device Application operates by establishing communication channels with servers through CoAP messages. When issuing a GET request, it crafts a request message and awaits a response, decoding the received data for device use. Similarly, for a PUT request, it prepares and sends data to the server in line with CoAP specifications. The client also supports OBSERVE, initiating continuous monitoring of specific resources and handling subsequent updates from the server. Throughout these interactions, the client maintains message integrity and handles diverse message types, ensuring seamless data exchange between the device and servers in a resource-efficient manner.
 
 ### Code Repository and Branch
 
