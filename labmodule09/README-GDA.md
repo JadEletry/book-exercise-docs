@@ -1,4 +1,4 @@
-# Constrained Device Application (Connected Devices)
+# Gateway Device Application (Connected Devices)
 
 ## Lab Module 09
 
@@ -23,6 +23,8 @@ URL:
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
+
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/5ba3aaa3-9c06-4ec1-acd5-4518d4da15df)
 
 
 ### Unit Tests Executed
