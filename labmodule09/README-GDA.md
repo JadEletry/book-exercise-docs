@@ -20,7 +20,7 @@ Within the Gateway Device Application, the CoAP client initiates communication c
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/ShahzabeM/GDA-Java/tree/labmodule09
 
 ### UML Design Diagram(s)
 
