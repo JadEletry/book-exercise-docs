@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+The CDA implementation facilitates secure communication and message interpretation between devices in an IoT ecosystem. It ensures that the Constrained Device App can receive, process, and act upon messages sent by the Gateway Device App (GDA). This involves establishing a secure connection using Transport Layer Security (TLS) for MQTT communication, allowing the CDA to securely receive actuation commands from the GDA. Additionally, it interprets incoming ActuatorData messages, making decisions based on received data, and potentially triggering actions or relaying information further.
+
 How does your implementation work?
+
+The CDA implementation operates by integrating security features using TLS encryption into its MQTT communication setup. It establishes a connection to receive messages from the GDA by subscribing to specific topics, allowing the CDA to listen for ActuatorData commands. Upon receiving these messages, the system employs data interpretation logic to understand and process the ActuatorData content. This involves decoding the incoming messages, transforming the data into a usable format, and triggering specific actions or informing relevant components within the CDA based on the received information.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: https://github.com/ShahzabeM/CDA-Python/tree/labmodule10
 
 ### UML Design Diagram(s)
 
@@ -24,6 +28,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
+![image](https://github.com/JadEletry/book-exercise-docs/assets/71851213/d627b785-81c7-44c1-82ba-39317e948bfd)
 
 ### Unit Tests Executed
 
